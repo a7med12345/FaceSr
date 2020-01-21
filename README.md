@@ -30,7 +30,7 @@ a- Front View
 b- Side View
 
 |FSRGAN                                                                               | Ours(Supervised)     |  Ours(Unsupervised)|GroundTruth|
-|:------------------------                                                            :|:------------------------:|:--------:|:-----------:
+|------------------------                                                            |------------------------|--------|-----------|
 ![alt text](images/artificial_sideview/fsrnet/0_image32714.jpg 'fsrgan')|    ![alt text](images/artificial_sideview/0_image32714_output.jpg 'super')|  ![alt text](images/artificial_sideview/unsupervised/0_image32714_output.jpg 'unsup')| ![alt text](images/artificial_sideview/0_image32714.jpg 'gt')| 
 ![alt text](images/artificial_sideview/fsrnet/0_image43394.jpg 'fsrgan')|    ![alt text](images/artificial_sideview/0_image43394_output.jpg 'super')|  ![alt text](images/artificial_sideview/unsupervised/0_image43394_output.jpg 'unsup')| ![alt text](images/artificial_sideview/0_image43394.jpg 'gt')| 
 ![alt text](images/artificial_sideview/fsrnet/0_image41743.jpg 'fsrgan')|    ![alt text](images/artificial_sideview/0_image41743_output.jpg 'super')|  ![alt text](images/artificial_sideview/unsupervised/0_image41743_output.jpg 'unsup')| ![alt text](images/artificial_sideview/0_image41743.jpg 'gt')| 
@@ -63,7 +63,7 @@ a- Failure for the Supervised Approach
 THe supervised approach fails when the original image is in low resolution 
  
 |FSRGAN                                                                               | Ours(Supervised)     |  Ours(Unsupervised)|Original Image|
-|:------------------------                                                            :|:------------------------:|:--------:|:------------:|
+|------------------------                                                            |------------------------|--------|------------|
 ![alt text](images/real_data/failure_cases/fsrnet/0_2_Demonstration_Demonstration_Or_Protest_2_235.jpg 'fsrgan')|    ![alt text](images/real_data/failure_cases/supervised/0_2_Demonstration_Demonstration_Or_Protest_2_235.jpg 'super')|  ![alt text](images/real_data/failure_cases/unsupervised/0_2_Demonstration_Demonstration_Or_Protest_2_235.jpg 'unsup')|   ![alt text](images/real_data/failure_cases/gt1/0_2_Demonstration_Demonstration_Or_Protest_2_235.jpg 'gt')
 ![alt text](images/real_data/failure_cases/fsrnet/0_12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_636.jpg 'fsrgan')|    ![alt text](images/real_data/failure_cases/supervised/0_12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_636.jpg 'super')|  ![alt text](images/real_data/failure_cases/unsupervised/0_12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_636.jpg 'unsup')| ![alt text](images/real_data/failure_cases/gt1/0_12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_636.jpg 'gt')| 
 ![alt text](images/real_data/failure_cases/fsrnet/1_0_Parade_marchingband_1_291.jpg 'fsrgan')|    ![alt text](images/real_data/failure_cases/supervised/1_0_Parade_marchingband_1_291.jpg 'super')|  ![alt text](images/real_data/failure_cases/unsupervised/1_0_Parade_marchingband_1_291.jpg 'unsup')| ![alt text](images/real_data/failure_cases/gt1/1_0_Parade_marchingband_1_291.jpg 'gt')| 
@@ -79,7 +79,7 @@ THe supervised approach fails when the original image is in low resolution
 b- Success of the supervised Approach
 
 |FSRGAN                                                                               | Ours(Supervised)     |  Ours(Unsupervised)|Original Image|
-|:------------------------                                                            :|:------------------------:|:--------:|:------------:|
+|------------------------                                                            |------------------------|--------|------------|
 ![alt text](images/real_data/success_cases/fsrnet/0_0_Parade_marchingband_1_184.jpg 'fsrgan')|    ![alt text](images/real_data/success_cases/supervised/0_0_Parade_marchingband_1_184.jpg 'super')|  ![alt text](images/real_data/success_cases/unsupervised/0_0_Parade_marchingband_1_184.jpg 'unsup')|   ![alt text](images/real_data/success_cases/gt1/0_0_Parade_marchingband_1_184.jpg 'gt')
 ![alt text](images/real_data/success_cases/fsrnet/0_0_Parade_marchingband_1_432.jpg 'fsrgan')|    ![alt text](images/real_data/success_cases/supervised/0_0_Parade_marchingband_1_432.jpg 'super')|  ![alt text](images/real_data/success_cases/unsupervised/0_0_Parade_marchingband_1_432.jpg 'unsup')| ![alt text](images/real_data/success_cases/gt1/0_0_Parade_marchingband_1_432.jpg 'gt')| 
 ![alt text](images/real_data/success_cases/fsrnet/0_0_Parade_marchingband_1_668.jpg 'fsrgan')|    ![alt text](images/real_data/success_cases/supervised/0_0_Parade_marchingband_1_668.jpg 'super')|  ![alt text](images/real_data/success_cases/unsupervised/0_0_Parade_marchingband_1_668.jpg 'unsup')| ![alt text](images/real_data/success_cases/gt1/0_0_Parade_marchingband_1_668.jpg 'gt')| 
