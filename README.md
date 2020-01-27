@@ -16,9 +16,29 @@
  |-----|
   ![alt text](images/network/self_attention.png 'SelfAtt') | 
   
+# Methods
+
+## Supervised Approach
+
+In the supervised approach; we downsample the high resolution images by a factor of 8 and use the pairs for 
+training the network.
+
+### Overall Architecture  
+
+![alt text](images/network/supervised.jpg 'supervised') 
+
+### Losses 
+
+For the GAN loss , we use relativistic hinge-loss. For the content loss we use mean squared loss.
+
+####  Discriminator Loss 
+
+h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+
+
   
   
-# Comparison Between our method  and FSRGAN
+# Comparison Between our methods  and FSRGAN
 
 We have two methods supervised and unsupervised
 
