@@ -52,7 +52,21 @@ We Calculate Average PSNR for around 9000 test images
 |  Ours(Supervised)  |  23.65  |  
 |  Ours(Unsupervised)   |  21.97    | 
 
+3- ROC curve
 
+We calculate the ROC curve by using [openface](https://cmusatyalab.github.io/openface/)
+to get the face embedding of the target and the super-resolved face;
+and then find the score by calculating the euclidiean distance between the two projections.
+
+![alt text](images/roc/Figure_1.png 'ROC_Curve')
+
+
+|  Method | Area Under the Curve (AUC)                 |
+|---      |---                   |
+|  Bicubic |  0.79  |
+|  FSRGAN |  0.95  |  
+|  Ours(Supervised)  |  0.98  |  
+|  Ours(Unsupervised)   |  0.93    | 
 
 ##### Real World Low Resolution data
 
@@ -101,3 +115,26 @@ b- Success of the supervised Approach
 |  FSRGAN |  39.40  |  
 |  Ours(Supervised)  |  29.00  |  
 |  Ours(Unsupervised)   |  28.65    | 
+
+
+3- ROC Curve
+
+We generate Low resolution faces by passing High resolution ones to our High to Low network.
+Below example of super-resolved Low resolution images with different methods
+
+|BICUBIC| FSRGAN| Ours(Supervised| Ours(Unsupervised)|Groundtruth|
+|----------------------------------------- |------------------------|--------|-----------|-----------|
+![alt text](images/roc/real_low/bicubic/0_0002_02_output.jpg 'bicubic')|    ![alt text](images/roc/real_low/fsrnet/0_0002_02_output.jpg 'fsrnet')|  ![alt text](images/roc/real_low/supervised/0_0002_02_output_output.jpg 'ours')| ![alt text](images/roc/real_low/unsupervised/0_0002_02_output_output.jpg 'uns')| ![alt text](images/artificial_Low_resolution_visual_comparison/0_0002_02_gt.jpg 'gt')  
+![alt text](images/roc/real_low/bicubic/0_0004_02_output.jpg 'bicubic')|    ![alt text](images/roc/real_low/fsrnet/0_0004_02_output.jpg 'fsrnet')|  ![alt text](images/roc/real_low/supervised/0_0004_02_output_output.jpg 'ours')| ![alt text](images/roc/real_low/unsupervised/0_0004_02_output_output.jpg 'uns')|  ![alt text](images/roc/real_low/0_0004_02.jpg 'gt')  
+![alt text](images/roc/real_low/bicubic/0_0004_10_output.jpg 'bicubic')|    ![alt text](images/roc/real_low/fsrnet/0_0004_10_output.jpg 'fsrnet')|  ![alt text](images/roc/real_low/supervised/0_0004_10_output_output.jpg 'ours')| ![alt text](images/roc/real_low/unsupervised/0_0004_10_output_output.jpg 'uns')|  ![alt text](images/artificial_Low_resolution_visual_comparison/0_0004_10_gt.jpg 'gt')
+
+
+![alt text](images/roc/real_low/Figure_1.png 'ROC_Curve')
+
+
+|  Method | Area Under the Curve (AUC)                 |
+|---      |---                   |
+|  Bicubic |  0.65  |
+|  FSRGAN |  0.72  |  
+|  Ours(Supervised)  |  0.74  |  
+|  Ours(Unsupervised)   |  0.86    | 
