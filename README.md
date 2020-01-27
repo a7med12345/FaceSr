@@ -33,10 +33,18 @@ For the GAN loss , we use relativistic hinge-loss. For the content loss we use m
 
 ####  Discriminator Loss 
 
-h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+ 
+#### Generator Loss
+ 
+## Unsupervised Method
 
+In the unsupervised method, we use a generator and discriminator to generate low resolution images from high 
+resolution ones.
 
-  
+### Overall Architecture
+
+![alt text](images/network/unsupervised.jpg 'unsupervised') 
+
   
 # Comparison Between our methods  and FSRGAN
 
