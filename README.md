@@ -1,3 +1,23 @@
+# Network Architecture
+
+## Generators Architectures
+
+|  Low to High | High to Low                 | Residual+ Attention Block|
+|---      |---                   |-----|
+| ![alt text](images/network/L2H.jpg 'L2H') |  ![alt text](images/network/H2L.jpg 'H2L')  |  ![alt text](images/network/RAB.jpg 'RAB') | 
+
+## Discriminators Architectures
+
+|  Low to High | High to Low                
+|---      |---                   |
+| ![alt text](images/network/D_L2H.jpg 'L2H') |  ![alt text](images/network/D_H2L.jpg 'H2L')  | 
+
+ | Self_Attention|
+ |-----|
+  ![alt text](images/network/self_attention.png 'SelfAtt') | 
+  
+  
+  
 # Comparison Between our method  and FSRGAN
 
 We have two methods supervised and unsupervised
