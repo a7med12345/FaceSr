@@ -186,3 +186,21 @@ Below example of super-resolved Low resolution images with different methods
 |  FSRGAN |  0.72  |  
 |  Ours(Supervised)  |  0.74  |  
 |  Ours(Unsupervised)   |  0.86    | 
+
+
+# Comparison between our method and [Bulat](https://arxiv.org/pdf/1812.04948.pdf)
+
+## Visual Comparison
+
+|Bicubic                                                                               | Bulat     |  Ours(Unsupervised)|
+|------------------------                                                            |------------------------|--------|
+![alt text](images/real_data/failure_cases/cropped/bicubic/0_2_Demonstration_Demonstration_Or_Protest_2_235.jpg 'bicubic')|    ![alt text](images/real_data/failure_cases/cropped/bulat/0_2_Demonstration_Demonstration_Or_Protest_2_235.jpg 'bulat')|  ![alt text](images/real_data/failure_cases/cropped/unsupervised/0_2_Demonstration_Demonstration_Or_Protest_2_235.jpg 'unsup')|   
+![alt text](images/real_data/failure_cases/cropped/bicubic/0_12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_636.jpg 'bicubic')|    ![alt text](images/real_data/failure_cases/cropped/bulat/0_12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_636.jpg 'bulat')|  ![alt text](images/real_data/failure_cases/cropped/unsupervised/0_12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_636.jpg 'unsup')| 
+![alt text](images/real_data/failure_cases/cropped/bicubic/1_0_Parade_marchingband_1_291.jpg 'bicubic')|    ![alt text](images/real_data/failure_cases/cropped/bulat/1_0_Parade_marchingband_1_291.jpg 'bulat')|  ![alt text](images/real_data/failure_cases/cropped/unsupervised/1_0_Parade_marchingband_1_291.jpg 'unsup')| 
+![alt text](images/real_data/failure_cases/cropped/bicubic/1_0_Parade_Parade_0_373.jpg 'bicubic')|    ![alt text](images/real_data/failure_cases/cropped/bulat/1_0_Parade_Parade_0_373.jpg 'bulat')|  ![alt text](images/real_data/failure_cases/cropped/unsupervised/1_0_Parade_Parade_0_373.jpg 'unsup')|  
+![alt text](images/real_data/failure_cases/cropped/bicubic/3_0_Parade_marchingband_1_259.jpg 'bicubic')|    ![alt text](images/real_data/failure_cases/cropped/bulat/3_0_Parade_marchingband_1_259.jpg 'bulat')|  ![alt text](images/real_data/failure_cases/cropped/unsupervised/3_0_Parade_marchingband_1_259.jpg 'unsup')| 
+![alt text](images/real_data/failure_cases/cropped/bicubic/1_23_Shoppers_Shoppers_23_30.jpg 'bicubic')|    ![alt text](images/real_data/failure_cases/cropped/bulat/1_23_Shoppers_Shoppers_23_30.jpg 'bulat')|  ![alt text](images/real_data/failure_cases/cropped/unsupervised/1_23_Shoppers_Shoppers_23_30.jpg 'unsup')| 
+![alt text](images/real_data/failure_cases/cropped/bicubic/2_0_Parade_marchingband_1_161.jpg 'bicubic')|    ![alt text](images/real_data/failure_cases/cropped/bulat/2_0_Parade_marchingband_1_161.jpg 'bulat')|  ![alt text](images/real_data/failure_cases/cropped/unsupervised/2_0_Parade_marchingband_1_161.jpg 'unsup')|   
+![alt text](images/real_data/failure_cases/cropped/bicubic/2_12_Group_Large_Group_12_Group_Large_Group_12_211.jpg 'bicubic')|    ![alt text](images/real_data/failure_cases/cropped/bulat/2_12_Group_Large_Group_12_Group_Large_Group_12_211.jpg 'bulat')|  ![alt text](images/real_data/failure_cases/cropped/unsupervised/2_12_Group_Large_Group_12_Group_Large_Group_12_211.jpg 'unsup')| 
+![alt text](images/real_data/failure_cases/cropped/bicubic/3_2_Demonstration_Demonstration_Or_Protest_2_884.jpg 'bicubic')|    ![alt text](images/real_data/failure_cases/cropped/bulat/3_2_Demonstration_Demonstration_Or_Protest_2_884.jpg 'bulat')|  ![alt text](images/real_data/failure_cases/cropped/unsupervised/3_2_Demonstration_Demonstration_Or_Protest_2_884.jpg 'unsup')|  
+![alt text](images/real_data/failure_cases/cropped/bicubic/3_17_Ceremony_Ceremony_17_5.jpg 'bicubic')|    ![alt text](images/real_data/failure_cases/cropped/bulat/3_17_Ceremony_Ceremony_17_5.jpg 'bulat')|  ![alt text](images/real_data/failure_cases/cropped/unsupervised/3_17_Ceremony_Ceremony_17_5.jpg 'unsup')| 
